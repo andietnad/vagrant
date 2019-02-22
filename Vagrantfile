@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
   config.vm.network "private_network", ip: "172.1.1.10"
-  config.vm.synced_folder ".", "/vagrant", type: "nfs"2
+  config.vm.synced_folder ".", "/vagrant", type: "nfs"
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
